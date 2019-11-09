@@ -21,7 +21,10 @@ TechStack:
 - JavaScript
 - jQuery
 - BootStrap 4
+- Font Awesome
+- Google Fonts
 - PHP
 - Apache Web Server
 - Data Base (MySQL or MongoDB)
 - API services
+
