@@ -29,8 +29,9 @@ TechStack:
 - API services
 
 PS: All images are taken from freely useable image sites. 
-Creds: 	https://unsplash.com/
-	https://pixabay.com/
-	https://www.pexels.com/
+Creds:
+https://unsplash.com/
+https://pixabay.com/
+https://www.pexels.com/
 and much more!
 
