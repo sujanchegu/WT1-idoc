@@ -1,24 +1,31 @@
 #card {
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
-    border: 5px solid rgba(0, 0, 0, 0.5);
-    height: 500px;
-    margin-top: 212px;
+    height: 600px;
+    margin-top: 170px;
     width: 350px;
     position: relative;
     z-index: 1000;
+    padding: 0;
+	background: rgba(255, 255, 255, 0.04);
+	-webkit-box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+	box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
 }
 
 body { 
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     height: 100%;
-    background-image: url('Images/FotoJet.png');
-    animation: marquee 30s infinite linear;
+    background-image: url('Images/FotoJet.png'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+    animation: marquee 10s infinite linear;
     background-size: 100%;
     background-attachment: fixed;
+    font-family: 'Nunito', sans-serif;
 }
 
 @keyframes marquee {
@@ -31,36 +38,46 @@ body {
 }
 
 input {
-    background-color: rgba(127, 127, 127, 0.5);
+    background-color: whitesmoke;
     width: 300px;
-    height: 25px;
+    height: 35px;
     margin: 25px;
+    margin-top: 10px;
     border: 0px;
-    border-bottom: 2px solid orangered;
+    padding: 3px;
 }
 
 button {
     width: 150px;
     height: 50px;
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 1.5rem;
-    color: paleturquoise;
+    background-color: rgba(0,0,0,0.75);
+    font-size: 1rem;
+    color: white;
     transition: transform 10s is-in-out!important;
 }
 
 button:hover{
-    background-color: rgba(	29, 157, 231,1);
+    background-color: rgba(100,100,100,0.5);
+    cursor: pointer;
 }
 
 
 #content {
-    margin-top: 50px;
-}
-
-#form {
-    margin-top: 25px;
+    margin-top: 0px;
 }
 
 h1 {
-    color:rgba(202, 38, 38, 0.459);
+    color:whitesmoke;
+    text-transform: uppercase;
+}
+
+.icons {
+    color: white;
+    text-align: left!important;
+    font-size: 20px;
+}
+
+#content p {
+    color:whitesmoke;
+    text-shadow:1px 0px 1px white;
 }

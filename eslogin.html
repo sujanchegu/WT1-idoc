@@ -6,19 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Student Login</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="eslogin.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body>
     <div id="card">
         <div id="content">
             <h1>Student Portal Login</h1>
+            <h1><i style="font-size: 60px;" class="fa fa-user"></i></h1>
             <div id="form">
+                <label for="uid" class="icons">UniqueID <i class="fa fa-id-badge"></i></label>
                 <input type="text" id="uid" placeholder="Enter Unique ID">
-                <br>
-                <input type="text" id="password" placeholder="Enter Password">
-                <br>
-                <button>Login</button>
+                <label for="password" class="icons">Password <i class="fa fa-user-secret"></i></label>
+                <input type="text" id="password" placeholder="************">
+                <button>LOG IN</button>
             </div>
             <p>The information on this page is only accessible for visitors with a UID.For security reasons, please
                 log out and exit your web browser when you are done accessing services that
