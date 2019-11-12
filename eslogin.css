@@ -1,0 +1,66 @@
+#card {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 5px solid rgba(0, 0, 0, 0.5);
+    height: 500px;
+    margin-top: 212px;
+    width: 350px;
+    position: relative;
+    z-index: 1000;
+}
+
+body { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    background-image: url('Images/FotoJet.png');
+    animation: marquee 30s infinite linear;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+@keyframes marquee {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: -1200px;
+    }
+}
+
+input {
+    background-color: rgba(127, 127, 127, 0.5);
+    width: 300px;
+    height: 25px;
+    margin: 25px;
+    border: 0px;
+    border-bottom: 2px solid orangered;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1.5rem;
+    color: paleturquoise;
+    transition: transform 10s is-in-out!important;
+}
+
+button:hover{
+    background-color: rgba(	29, 157, 231,1);
+}
+
+
+#content {
+    margin-top: 50px;
+}
+
+#form {
+    margin-top: 25px;
+}
+
+h1 {
+    color:rgba(202, 38, 38, 0.459);
+}

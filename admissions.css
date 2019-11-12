@@ -1,11 +1,12 @@
-#bg-university {
-    background-size: 100%;
-    position: relative;
-}
-
 body .col-md-3 {
     padding-left: 0px;
     padding-right: 0px;
+    overflow-x: hidden!important;
+    max-width: 100%;
+}
+
+::-webkit-scrollbar { 
+    display: none; /* Chrome Safari */
 }
 
 .card {
@@ -18,8 +19,6 @@ body .col-md-3 {
     position: absolute;
 }
 
-
-
 .parallax {
     background-image: url('Images/vasily-koloda-8CqDvPuo_kI-unsplash.jpg');
     height: 100%;
@@ -30,13 +29,15 @@ body .col-md-3 {
 }
 
 #register-box {
-    background-image: url('Images/josh-rose-trYl7JYATH0-unsplash.jpg');
+    background-image: url('Images/jyotirmoy-gupta-0xjuR1s04ZI-unsplash.jpg');
     background-size: cover;
     text-align: center;
-    color: whitesmoke;
+    color: black;
+    width: 101%;
     font-family: 'Nunito', sans-serif;
     font-size: 1.5rem;
     z-index: 2;
+    height: 1000px;
 }
 
 #register-box>h1 {
@@ -44,15 +45,10 @@ body .col-md-3 {
 }
 
 #register-box button {
-    text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
     font-size: 2rem;
     border-radius: 0px;
     transition: transform 0.6s is-in-out;
-}
-
-#bg-university {
-    padding-right: 0px;
+    background-color: skyblue;
 }
 
 .number-boxes {
