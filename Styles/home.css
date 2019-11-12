@@ -1,0 +1,61 @@
+body {
+    background-image: url('../Images/cropped-paolo-nicolello-8l1IFXFUtvs-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Nunito Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+#header {
+    font-family: 'Big Shoulders Text', cursive;
+    color: blanchedalmond;
+    font-size: 3.5rem;
+    letter-spacing: 5px;
+    padding-left: 50px;
+}
+#ur {
+    font-family: 'McLaren', cursive;
+    font-size: 2rem;
+    letter-spacing: 0px;
+    text-align: right;
+    padding-right: 110px;
+}
+
+#options {
+    height:600px;
+    margin-left: 1525px;
+    margin-top:75px;
+}
+
+.select {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    color: rgb(253, 86, 36);
+    border-radius: 25px;
+    top:25%;
+    cursor: pointer;
+}
+.select:hover {
+    color:black;
+    background-color: rgb(253, 86, 36);
+}
+
+.icons {
+    font-size: 3rem;
+    margin: 0px;
+}
+
+.paras {
+    margin:0px;
+}
+
+#uniname {
+    border-bottom: 2px solid rgb(253, 86, 36);
+    width: 235px;
+}

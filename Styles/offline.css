@@ -1,0 +1,43 @@
+body {
+    background-image: url('../Images/o12-Knwea-mLGAg-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    font-family: 'Nunito', sans-serif;
+    color: wheat;
+    margin-left: 50px;
+}
+
+body>h1 {
+    color: wheat;
+    font-weight: 700;
+    font-size: 5rem;
+    font-family: 'Amatic SC', cursive;
+}
+
+.errors {
+    width: 300px;
+    margin-left: 50px;
+}
+
+#e5xx {
+    margin-top: 100px;
+    width: 400px;
+}
+
+button {
+    width: 132px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(0,0,0,0);
+    color: rgb(221, 44, 133);
+    border: 2px solid rgb(221, 44, 133);
+    transition: transform 0.6s is-in-out;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(221, 44, 133);
+    color: rgb(0,0,0);
+}
