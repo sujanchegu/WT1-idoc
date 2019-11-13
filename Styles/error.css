@@ -14,6 +14,15 @@ body>h1 {
     font-weight: 700;
     font-size: 5rem;
     font-family: 'Amatic SC', cursive;
+    margin-bottom: 0px;
+}
+
+body>h3 {
+    color: wheat;
+    font-weight: 100;
+    font-family: 'Amatic SC', cursive;
+    margin-top: 0px;
+    font-size: 3rem;
 }
 
 .errors {
@@ -22,7 +31,7 @@ body>h1 {
 }
 
 #e5xx {
-    margin-top: 100px;
+    margin-top: 50px;
     width: 400px;
 }
 
@@ -40,4 +49,9 @@ button {
 button:hover {
     background-color: rgb(221, 44, 133);
     color: rgb(0,0,0);
+}
+
+#space {
+    text-decoration: line-through;
+    text-decoration-color: red;
 }
