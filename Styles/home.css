@@ -1,61 +1,84 @@
+.navbar-inverse .navbar-brand {
+    color: lightsalmon;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color:lightsalmon;
+}
+
 body {
-    background-image: url('../Images/cropped-paolo-nicolello-8l1IFXFUtvs-unsplash.jpg');
-    background-size: cover;
-    background-position: center;
+    font-family: lato;
+    color: white;
+    background: url("../Images/jason-wong-PBNbMX6jtBM-unsplash.jpg");
+    background-size: 100%;
     background-repeat: no-repeat;
-    font-family: 'Nunito Sans', sans-serif;
-    overflow-x: hidden;
 }
 
-#header {
-    font-family: 'Big Shoulders Text', cursive;
-    color: blanchedalmond;
-    font-size: 3.5rem;
-    letter-spacing: 5px;
-    padding-left: 50px;
-}
-#ur {
-    font-family: 'McLaren', cursive;
-    font-size: 2rem;
-    letter-spacing: 0px;
-    text-align: right;
-    padding-right: 110px;
+html {
+    height: 100%;
 }
 
-#options {
-    height:600px;
-    margin-left: 1525px;
-    margin-top:75px;
-}
-
-.select {
-    height: 200px;
-    width: 200px;
+.content {
+    padding-top: 25%;
     text-align: center;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    font-size: 1.5rem;
-    margin-left: 20px;
-    color: rgb(253, 86, 36);
-    border-radius: 25px;
-    top:25%;
-    cursor: pointer;
 }
-.select:hover {
-    color:black;
-    background-color: rgb(253, 86, 36);
+.content a  {
+    color: black;
 }
 
-.icons {
-    font-size: 3rem;
-    margin: 0px;
+.content a:hover {
+    color: black;
 }
 
-.paras {
-    margin:0px;
+h1 {
+    font-weight: 800;
+    text-shadow: 1px 0px 3px rgba(0,0,0,0.2),
+                 3px 0px 12px rgba(0,0,0,0.3),
+                 5px 0px 18px rgba(0,0,0,0.4);
 }
 
-#uniname {
-    border-bottom: 2px solid rgb(253, 86, 36);
-    width: 235px;
+hr {
+    width: 400px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    color: black;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    background: lightsalmon;
+    color: black;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    background: lightsalmon;
+    color: black;
+}
+
+#getstarted {
+    width: 80%;
+    border: 2px solid #bdc3c7;
+    margin: 40px auto;
+    padding: 10px;
+    margin-top: 750px;
+    font-size: 1.7rem;
+    background: rgba(127,127,127,0.5);
+}
+
+#getstarted p {
+    font-family: "source sans pro";
+    color: black;
+}
+
+#getstarted h2 {
+    color: #2c3e50;
+    font-family: "source sans pro";
+    font-weight: 900;
+}
+
+#getstarted h2 + p {
+    border-left: 7px solid #bdc3c7;
+    padding-left: 4px;
+}
+
+body {
+    background-attachment: fixed;
 }

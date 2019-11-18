@@ -19,12 +19,13 @@
             <h1><i style="font-size: 60px;" class="fa fa-user"></i></h1>
             <div id="form">
                 <label for="uid" class="icons">UniqueID <i class="fa fa-id-badge"></i></label>
-                <input type="text" id="uid" placeholder="Enter Unique ID">
-                <label for="password" class="icons">Password <i class="fa fa-user-secret"></i></label>
-                <input type="text" id="password" placeholder="************">
-                <button>LOG IN</button>
+                <input type="text" id="uid" placeholder="Enter UID" required>
+                <label for="upass" class="icons">Password <i class="fa fa-user-secret"></i></label>
+                <input type="password" id="upass" placeholder="Enter Password" required>
+                <button id="submit">LOG IN</button>
+                <p id="logstat"></p>
             </div>
-            <p>The information on this page is only accessible for visitors with a UID.For security reasons, please
+            <p>The information on this page is only accessible for visitors with a UID. For security reasons, please
                 log out and exit your web browser when you are done accessing services that
                 require authentication.</p>
         </div>

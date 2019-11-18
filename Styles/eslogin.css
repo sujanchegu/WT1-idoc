@@ -2,7 +2,7 @@
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
     height: 600px;
-    margin-top: 170px;
+    margin-top: 150px;
     width: 350px;
     position: relative;
     z-index: 1000;
@@ -80,4 +80,9 @@ h1 {
 #content p {
     color:whitesmoke;
     text-shadow:1px 0px 1px white;
+}
+
+p {
+    padding: 0;
+    margin: 0;
 }
