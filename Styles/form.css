@@ -11,7 +11,8 @@ h2{
 }
 h5{
 	text-align: center;
-	font-family: sans-serif;
+	font-family: 'Audiowide', cursive;
+	color: #FF00FF;
 	font-size: 15px;
 }
 
@@ -27,7 +28,7 @@ h5{
 #Register{
 
 	margin-left: 50px;
-	font-family: cursive;
+	font-family: 'Damion', cursive;
 }
 .box{
 	align-content: center;
@@ -54,7 +55,13 @@ h6{
 }
 #btn{
 	margin-left: 380px;
-	background-color: green;
-	border-radius: 5px;
-	width: 80px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
 }
