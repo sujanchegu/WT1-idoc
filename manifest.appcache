@@ -1,0 +1,39 @@
+CACHE MANIFEST
+# 13-11-19 v1
+
+# Explicitly cahced entries
+error.html
+about.html
+Styles/about.css
+Scripts/about.js
+admissions.html
+Styles/admissions.css
+Scripts/admissions.js
+Styles/eslogin.css
+Scripts/eslogin.js
+index.html
+Scripts/index.js
+Styles/index.css
+
+NETWORK:
+*
+
+FALLBACK:
+/ /error.html
+
+# Additional resources to cache
+CAHCE:
+Images/cropped-paolo-nicolello-8l1IFXFUtvs-unsplash.jpg
+Images/FotoJet.png
+Images/jason-wong-PBNbMX6jtBM-unsplash.jpg
+
+# Images/aleks-dorohovich-nJdwUHmaY8A-unsplash.jpg
+# Images/toa-heftiba-6bKpHAun4d8-unsplash.jpg
+# Images/moren-hsu-VLaKsTkmVhk-unsplash.jpg
+# Images/priscilla-du-preez-XkKCui44iM0-unsplash.jpg
+# Images/avel-chuklanov-DUmFLtMeAbQ-unsplash.jpg
+# Images/mikael-kristenson-3aVlWP-7bg8-unsplash.jpg
+# Images/kimberly-farmer-lUaaKCUANVI-unsplash.jpg
+# Images/clay-banks-z_DkoUqgx6M-unsplash.jpg
+# Images/vasily-koloda-8CqDvPuo_kI-unsplash.jpg
+# Images/jyotirmoy-gupta-0xjuR1s04ZI-unsplash.jpg
