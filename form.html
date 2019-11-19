@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Register Here</title>
+		<link rel="stylesheet" type="text/css" href="Styles/form.css">
+	</head>
+	<body>
+		<h2> New Registration </h2>
+
+		<div class="personal_info">
+			<br>
+			<h5>~: student personal information :~</h5>
+			<form method="POST" action="proj.html" id="Register">
+				<lablel>Student name :  </lablel>
+				<input type="text" id="Frstname" class="box" placeholder="First Name">  
+				<input type="text" id="Lstname" class="box" placeholder="Last Name"> <br><br> 
+				<lablel>Father's name :  </lablel>
+				<input type="text" id="Fname" class="box" placeholder="Father's Name">
+				<lablel id="gen">Mother's name :  </lablel>
+				<input type="text" id="Mname" class="box" placeholder="Mother's Name"><br><br>
+				<lablel>Date of Birth :  </lablel>
+				<input type="Date" value="DOB" class="box" >
+				<lablel id="gen" >Gender :  </lablel>
+				<select class="box" >
+					<option value="male">MALE</option>
+					<option value="female">FEMALE</option>
+				</select><br><br>
+				<lablel>Mob No : </lablel>
+				<select class="box" >
+					<option>+91</option>
+					<option>+92</option>
+					<option>+93</option>
+				</select>
+				<input type="phone" id="phn" name="Mobno" placeholder="999999999" class="box" ><br><br>
+				<lablel>Mail Id :  </lablel>
+				<input type="email" id="mail" placeholder="test@test.com" name="mailid" class="box" ><br><br>
+				<lablel>Nationality :  </lablel>
+				<input type="text" placeholder="country Name" name="nation" class="box">
+				<lablel id="gen">Religion :  </lablel>
+				<input type="text" placeholder="Religion" name="Religion" class="box"><br><br>
+				<lablel>Category :  </lablel>
+				<input type="text" placeholder="Category" name="Category" class="box">
+				<lablel id="gen">Cast :  </lablel>
+				<input type="text" placeholder="Cast" name="Cast" class="box"><br><br>
+				<lablel>Personal Address :  </lablel>
+				<textarea row="13" col="30"></textarea>
+				<lablel id="gen">Pincode :  </lablel>
+				<input type="number" id="pin" class="box"><br><br>
+				<lablel>Enter New password :  </lablel>
+				<input type="password" id="ps1"  name="pssword" class="box" >
+				<lablel class="box" >ReEnter password :  </lablel>
+				<input type="password" id="ps2" name="pssword" class="box"  >
+				<br><br><br>
+
+			</form>
+		</div>
+		<br>
+		<div class="personal_info">
+			<br>
+			<h5>~: college information :~</h5>
+			<form method="POST" action="proj.html" id="Register">
+				<lablel>college name :  </lablel>
+				<input type="text" id="clgname" class="box" placeholder="college Name">  
+				<br><br> 
+				<label > Mediam of Instruction</label>
+				<input type="text" id="medinst" class="box"><br><br>
+				<label> college address</label>
+				<textarea row="13" col="30" class="box" id="clgname"></textarea> 
+				<lablel id="gen">Pincode :  </lablel>
+				<input type="number" class="box" id="pin"><br><br>
+
+				<label >Maximaum Marks </label>
+				<input type="number" name="score" class="box" id="marks" placeholder="maximum marks">
+				<label id="gen">Obtained Marks :  </label>
+				<input type="number" class="box" name="board" placeholder="obtained marks" id="marks"><br><br>
+
+				<label >Aggregate Percentage(%) </label>
+				<input type="text" name="score" class="box" id="perc" placeholder="Percentage">
+				<label id="gen">board  :  </label>
+				<input type="text" class="box" name="board" placeholder="board"><br><br>
+				<label >Year Of Complition </label>
+				<input type="number" name="year" class="box" id="marks">
+				<br><br><br>
+
+			</form>
+		</div>
+		<br>
+		<div class="personal_info">
+			<br>
+			<h5>~: Test and Payment Detail :~</h5>
+			<h6>Exam Instruction :-</h6>
+			<p id="instructions">
+				#1. Carry admit card, id proof, and other required certificates.<br>
+				#2. No footears are allowed inside the exam hall.<br>
+				#3. Candidates will get only 1 writing pad.<br>
+				#4. Submit admit card, test pad, pen before leaving the exam hall<br>
+			</p>
+
+			<form method="POST" action="proj.html" id="Register">
+				<label> TEST  CENTRE :  </label>
+				<select>
+					<option>Benglore</option>
+					<option>Goa</option>
+					<option>Maharashtra</option>
+					<option>Delhi</option>
+
+				</select>
+				<br><br>
+			</form>
+
+			<button id="btn" onclick="submit()">SUBMIT</button><br><br><br>
+		</div>
+
+	</body>
+	<script src="Scripts/form.js"></script>
+</html>

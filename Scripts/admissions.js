@@ -4,3 +4,10 @@ var scrollEventHandler = function()
 }
 
 window.addEventListener("scroll", scrollEventHandler, false);
+
+var regbox = document.getElementById("regbox");
+regbox.addEventListener("click",redirect,false);
+
+function redirect () {
+  window.location.href = "form.html";
+}

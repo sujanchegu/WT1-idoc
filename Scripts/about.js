@@ -14,5 +14,5 @@ function existclick(e){
 
 var uniname = document.getElementById("uniname");
 uniname.addEventListener("click",function() {
-    window.location.href = "home.html";
+    window.location.href = "index.html";
 },false)

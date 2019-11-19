@@ -1,0 +1,60 @@
+body{
+	background-image: url("../Images/images3.jpeg");
+	background-size: 100% 1700px;
+	background-repeat: no-repeat;
+
+}
+
+h2{
+	text-align: center;
+	font-style: serif;
+}
+h5{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+.personal_info{
+	margin-left:auto;
+	margin-right: auto;
+	background:  #e6f5ff;
+	width: 850px;
+	font-size: 18px;
+	border-radius: 10px;
+
+}
+#Register{
+
+	margin-left: 50px;
+	font-family: cursive;
+}
+.box{
+	align-content: center;
+	margin-left: 10px;
+}
+#gen{
+	margin-left: 30px;
+}
+#clgname{
+	margin-left: 30px;
+	width:350px;
+}
+#marks{
+	padding: 10px;
+}
+h6{
+	font-style: serif;
+	font-size: 15px;
+	margin-left: 20px;
+	color:red;
+}
+#instructions{
+	margin-left: 15px;
+}
+#btn{
+	margin-left: 380px;
+	background-color: green;
+	border-radius: 5px;
+	width: 80px;
+}

@@ -2,3 +2,7 @@ Scripts/eslaunch.js
 eslaunch.html
 Styles/eslaunch.css
 manifest.appcache
+checkout.html
+Scripts/checkout.js
+Styles/checkout.css
+checkout.php
