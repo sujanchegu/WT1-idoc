@@ -100,3 +100,8 @@ body .col-md-3 {
     color: red;
     cursor: pointer;
 }
+
+
+.scrolled {
+    background: skyblue;
+}
