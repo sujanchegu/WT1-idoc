@@ -14,10 +14,10 @@
 	<div class="personal_info">
 		<br>
 		<h5> STUDENT PERSONAL INFORMATION</h5>
-		<form method="POST" action="ServerScripts/createlink.php" id="Register">
+		<form method="POST" action="ServerScripts/checkoutold.php" id="Register">
 			<lablel>Student name : </lablel>
-			<input type="text" id="Frstname" class="box" placeholder="First Name">
-			<input type="text" id="Lstname" class="box" placeholder="Last Name"> <br><br>
+			<input type="text" id="Frstname" class="box" placeholder="First Name" name="Frstname" required>
+			<input type="text" id="Lstname" class="box" placeholder="Last Name" name="Lstname" required> <br><br>
 			<lablel>Father's name : </lablel>
 			<input type="text" id="Fname" class="box" placeholder="Father's Name">
 			<lablel id="gen">Mother's name : </lablel>
@@ -51,9 +51,9 @@
 			<lablel id="gen">Pincode : </lablel>
 			<input type="number" id="pin" class="box"><br><br>
 			<lablel>Enter New password : </lablel>
-			<input type="password" id="ps1" name="pssword" class="box">
+			<input type="password" id="ps1" class="box" name="ps1" required>
 			<lablel class="box">ReEnter password : </lablel>
-			<input type="password" id="ps2" name="pssword" class="box">
+			<input type="password" id="ps2" class="box" name="ps2" required>
 			<br><br><br>
 
 	</div>
@@ -111,7 +111,7 @@
 			<br><br>
 		</div>
 
-		<button id="btn" type="submit" onclick="submit()">SUBMIT</button><br><br><br>
+		<button id="btn" type="submit" name="formSubmit" value="submit" onclick="submit()">SUBMIT</button><br><br><br>
 		</form>
 	</div>
 

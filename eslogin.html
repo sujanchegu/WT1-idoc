@@ -19,11 +19,11 @@
             <h1>Student Portal Login</h1>
             <h1><i style="font-size: 60px;" class="fa fa-user"></i></h1>
             <div id="form">
-                <form action="ServerScripts/login.php" method="POST">
+                <form action="ServerScripts/checkoutnew.php" method="POST">
                     <label for="uid" class="icons">UniqueID <i class="fa fa-id-badge"></i></label>
-                    <input type="text" id="uid" placeholder="Enter UID" required name="uid">
+                    <input type="text" id="uid" placeholder="Enter UID" required name="username">
                     <label for="upass" class="icons">Password <i class="fa fa-user-secret"></i></label>
-                    <input type="password" id="upass" placeholder="Enter Password" required name="upass">
+                    <input type="password" id="upass" placeholder="Enter Password" required name="password">
                     <button id="submit" value="submit">LOG IN</button>
                     <p id="logstat"></p>
                 </form>

@@ -1,4 +1,6 @@
 <?php
+
+extract($_GET);
 /**
 * import checksum generation utility
 * You can get this utility from https://developer.paytm.com/docs/checksum/
@@ -25,7 +27,7 @@ $paytmParams["body"] = array(
 
     "expiryDate" => "31/12/2019",
     
-    "amount" => "1.00",
+    "amount" => $fee,
 );
 
 /**
@@ -76,6 +78,8 @@ $link = substr($response,strpos($response, "longUrl")+9,strpos($response, "short
 <body>
     <center>
     <h1>Do not refresh the page or press back button</h1>
+    <?php echo $response?>
+    <?php echo $link?>
     </center>
     <script>
         window.location.href = <?php echo $link?>;
