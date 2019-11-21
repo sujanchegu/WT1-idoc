@@ -1,27 +1,34 @@
 <?php
 extract($_POST);
-if ($ps1 == $ps2) {
-    $username = $Frstname . $Lstname;
-    $password = $ps1;
-} else {
-   die("Error: Passwords Mismatch");
-}
 
-$fee = 500;
-$desc = "Application Fee for new Admission";
 
-$conn=mysqli_connect("localhost","root","Sujan_13?");
+$desc = "Fee Payment for Next Semester";
+
+$conn=mysqli_connect("localhost","id11635269_root","Sujan_13?");
 if(!$conn){
     die ('connection failed');
 }
 
 
-mysqli_select_db($conn,"eCampus");
-$sql="insert into OldStudents(username,password,fee) values('$username','$password','$fee')";
-// $sql = $sql="Insert into USERS values('".$username."','".$password."','".$fee."')";
+mysqli_select_db($conn,"id11635269_ecampus");
+
+$sql = "Select * from OldStudents where username='$username'";
 $res=mysqli_query($conn,$sql);
 if(!$res){
     die ('query for adding user failed');
+}
+$c = 0;
+while($row = mysqli_fetch_assoc($res))
+{
+    if($row['password'] == $password){
+        $fee = $row['fee'];
+        $c = 1;
+    }
+}
+
+if($c == 0)
+{
+    die("Invalid Credentials");
 }
 
 
