@@ -4,13 +4,13 @@ extract($_POST);
 
 $desc = "Fee Payment for Next Semester";
 
-$conn=mysqli_connect("localhost","id11635269_root","Sujan_13?");
+$conn=mysqli_connect("localhost","root","Sujan_13?");
 if(!$conn){
     die ('connection failed');
 }
 
 
-mysqli_select_db($conn,"id11635269_ecampus");
+mysqli_select_db($conn,"ecampus");
 
 $sql = "Select * from OldStudents where username='$username'";
 $res=mysqli_query($conn,$sql);

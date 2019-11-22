@@ -10,13 +10,13 @@ if ($ps1 == $ps2) {
 $fee = 100;
 $desc = "Application Fee for new Admission";
 
-$conn=mysqli_connect("localhost","id11635269_root","Sujan_13?");
+$conn=mysqli_connect("localhost","root","Sujan_13?");
 if(!$conn){
     die ('connection failed');
 }
 
 
-mysqli_select_db($conn,"id11635269_ecampus");
+mysqli_select_db($conn,"ecampus");
 $sql="insert into OldStudents(username,password,fee) values('$username','$password','$fee')";
 // $sql = $sql="Insert into USERS values('".$username."','".$password."','".$fee."')";
 $res=mysqli_query($conn,$sql);
