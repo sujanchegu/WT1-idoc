@@ -15,7 +15,7 @@ Using a database would be inevitable for the case, we choose either SQL or Mongo
 
 Integrating Payment Gateways to the project becomes easier than ever, thanks to API services of the respective financial platforms being provided for the sake of developers which provides students and candidates to pay through Bank accounts, credit cards, debit cards, Mobile Wallets, Net banking etc, currently, PayTM and others. Thus, we try to develop a fully functioning model which with minimal modifications would suit a large scale industrial level ready-to-use Web Application need.
 
-TechStack:
+Technologies used:
 - HTML5
 - CSS
 - JavaScript
@@ -25,7 +25,7 @@ TechStack:
 - Google Fonts
 - PHP
 - Apache Web Server
-- Data Base (MySQL or MongoDB)
+- DB : MySQL
 - API services
 
 PS: All images are taken from freely useable image sites. 
